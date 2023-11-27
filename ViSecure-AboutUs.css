@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+header {
+    background-color: #2C2C2C;
+    border-bottom: #fff 2.5px solid;
+    position: fixed;
+    top: 0; left: 0; right: 0; 
+    padding: 4px 2%;
+    align-items: center;
+    display: flex;
+    z-index: 1000;
+    font-family: 'Poppins', sans-serif;
+}
+
+ header .AboutUs{
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 10px;
+    margin-left: auto;
+}
+
+
+.logo {
+    color: #fff;
+    font-size: 100%;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.icon img {
+    max-width: 35px;
+    max-height: 35px;
+}
+
+h1 {
+    position: absolute;
+    color: #000;
+    text-align: justify;
+    font-family: "Inter", sans-serif;
+    font-size: 51px;
+    font-style: normal;
+    font-weight: 800;
+    top: 40px;
+    left: 25.5px;
+}
+
+.aboutUsSubText {
+    position: absolute;
+    top: 170px;
+    left: 35.5px;
+    color: #000;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 20px;
+    font-weight: 200;
+    margin-right: 100px;
+    margin-left: 50px;
+    text-align: justify;
+}
+
+h3{
+    position: absolute;
+    color: #000;
+    text-align: justify;
+    font-family: "Inter", sans-serif;
+    font-size: 51px;
+    font-style: normal;
+    font-weight: 800;
+    top: 40px;
+    left: 25.5px;
+}
+
+.mission1Container, .mission2container {
+    position: absolute;
+    border-radius: 17px;
+    border: 0.85px solid #000;
+    background: #2C2C2C;
+    box-shadow: 0px 3.4px 3.4px 0px rgba(0, 0, 0, 0.48);
+}
+
+.mission1Container {
+    width: 573.75px;
+    height: 319.6px;
+    top: 290px;
+    left: 25.5px;
+}
+
+.mission2Container {
+    width: 833.85px;
+    height: 624.9px;
+    top: 690px;
+    left: 640.5px;
+}
+
+.contactUsContainer, .whyUsContainer {
+    position: absolute;
+    border-radius: 17px;
+    border: 0.85px solid #000;
+    background: #FFF;
+    box-shadow: 0px 3.4px 3.4px 0px rgba(0, 0, 0, 0.48);
+}
+
+.contactUsContainer {
+    top: 660px;
+    left: 25.5px;
+    width: 573.75px;
+    height: 253.3px;
+}
+
+.whyUsContainer {
+    top: 320px;
+    left: 640.5px;
+    width: 833.85px;
+    height: 319.6px;
+}
+
+h2 {
+    font-family: "Inter", sans-serif;
+    margin-left: 17px;
+    font-size: 25.5px;
+    font-weight: 800;
+}
+
+.mission1Container h2, .mission2Container h2 {
+    color: #FFF;
+    text-align: left;
+}
+
+p {
+    color: #FFF;
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+    margin-left: 42.5px;
+    font-weight: 340;
+    line-height: normal;
+}
+
+.whyUsContainer p {
+    width: 751.4px;
+    height: 212.5px;
+    color: #000;
+    text-align: justify;
+    font-family: "Inter", sans-serif;
+    font-size: 21.25px;
+    font-weight: 340;  
+}
+
+.mission1Container p, .mission2container p {
+    color: #FFF;
+    text-align: justify;
+    font-family: "Inter", sans-serif;
+    margin-right: 34px;
+    font-size: 21.25px;
+    font-weight: 340;
+}
+
+.mission2Container p::before {
+    content: '\2022'; 
+    display: inline-block; 
+}
+
+.mission2Container span {
+    font-weight: bold;
+    text-decoration: underline;
+    font-color: #c0c0c0;
+}
+
+.contactUsContainer span {
+    color: #000;
+    font-family: "Inter", sans-serif;
+    font-size: 21.25px;
+    font-weight: 170;
+    line-height: 1.7;
+    margin-left: 51px;
+    text-decoration: underline;
+}
+
+.mission1Container, .mission2container {
+    border-radius: 17px;
+    border: 0.85px solid #000;
+    box-shadow: 0px 0px 10px #FFD700;  
+}
+
+.contactUsContainer, .whyUsContainer {
+    border-radius: 17px;
+    border: 0.85px solid #000;
+    box-shadow: 0px 0px 10px #F9664B; 
+}
+
+.arrow1, .arrow2
+{
+    width: 60px;
+    height: 60px;
+}
+
+.arrow1{
+   position: absolute;
+   top: 80px;
+   left: 430px;
+}
+
+.arrow2{
+    position: absolute;
+    top: 80px;
+    left: 345px;
+    transform: rotateY(180deg);
+}
+
+.hidden {
+    display: none;
+}
+
+.transition {
+    transition: opacity 0.5s ease;
+}
