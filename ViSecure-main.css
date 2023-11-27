@@ -22,6 +22,22 @@ header {
 
 }
 
+
+header .Company{
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 20px;
+    margin-left: auto;
+}
+
+header .AboutUs{
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 10px;
+    margin-left: 20px;
+}
 .logo {
     color: #fff;
     font-size: 100%;
